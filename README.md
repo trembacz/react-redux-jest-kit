@@ -33,12 +33,12 @@ Building app in the "dist" directory. Contains the index.html with the minified 
 
 ```npm run test``` or ```yarn test```
 
-![](i.http://imgur.com/Yf4YGGZ.jpg)
+![](http://i.imgur.com/Yf4YGGZ.jpg)
 
 This command will run tests and create a Coverage report "coverage/lcov-report/index.html"
 
-![](i.http://imgur.com/KsKduK4.jpg)
-![](i.http://imgur.com/oGikWWk.jpg)
+![](http://i.imgur.com/KsKduK4.jpg)
+![](http://i.imgur.com/oGikWWk.jpg)
 
 ## Run tests --watch
 
