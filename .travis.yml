@@ -1,10 +1,10 @@
 language: node_js
 
 node_js:
-   - 7
+   - node
+	 - 7
    - 6
    - 5
-   - 4
 
 branches:
   only:
