@@ -14,17 +14,25 @@ Contains:
 * Jest - unit testing framework
 
 
-## Run the app
+## Getting Started
 
-```npm install```
-```npm run start```
+**1. Clone the repository on your local machine by running:**
 
-or
+```bash
+git clone git@github.com:trembacz/react-redux-jest-kit.git
+cd react-redux-jest-kit
+```
 
-```yarn install```
-```yarn start```
+**2. Install all of the dependencies:**
 
-## Build the app
+```npm install``` or ```yarn install```
+
+**3. Run the app:**
+
+```npm run start``` or ```yarn start```
+
+**4. Build production files:**
+
 ```npm run build``` or ```yarn build```
 
 Building app in the "dist" directory. Contains the index.html with the minified assets (js, css), it's ready for production!.
