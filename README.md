@@ -1,6 +1,10 @@
 # react-redux-jest-kit
 A starter kit with react, redux, jest and webpack.
 
+[![Build Status](https://travis-ci.org/trembacz/react-redux-jest-kit.svg?branch=master)](https://travis-ci.org/trembacz/react-redux-jest-kit)
+[![Dependencies](https://david-dm.org/trembacz/react-redux-jest-kit/status.svg)](https://david-dm.org/trembacz/react-redux-jest-kit?view=list) 
+[![devDependencies](https://david-dm.org/trembacz/react-redux-jest-kit/dev-status.svg)](https://david-dm.org/trembacz/react-redux-jest-kit?type=dev&view=list)
+
 Contains:
 
 * checkout steps example
