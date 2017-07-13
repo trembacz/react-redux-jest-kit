@@ -1,5 +1,5 @@
 {
-  "name": "trembacz-starter-kit",
+  "name": "react-redux-jest-kit",
   "version": "1.0.0",
   "description": "StarterKit with react, redux, eslint, webpack and jest.",
   "main": "index.js",
