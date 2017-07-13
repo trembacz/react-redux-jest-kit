@@ -5,7 +5,7 @@ A starter kit with react, redux, jest and webpack.
 [![Dependencies](https://david-dm.org/trembacz/react-redux-jest-kit/status.svg)](https://david-dm.org/trembacz/react-redux-jest-kit?view=list) 
 [![devDependencies](https://david-dm.org/trembacz/react-redux-jest-kit/dev-status.svg)](https://david-dm.org/trembacz/react-redux-jest-kit?type=dev&view=list)
 
-Contains:
+## Contains:
 
 * checkout steps example
 * counter example
