@@ -6,7 +6,7 @@ const Footer = () => {
 		<footer>
 			<div className={styles.wrapper}>
 				<p>
-					<a href="#">Documentation</a>
+					<a target="_blank" href="https://github.com/trembacz/react-redux-jest-kit#react-redux-jest-kit">Github</a>
 				</p>
 			</div>
 		</footer>
