@@ -7,18 +7,20 @@ export const history = createHistory();
 const middleware = routerMiddleware(history);
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
-const initialState = {
-	order: [],
-	counter: 0,
-	filter: ''
-};
-
-export function configureStore() {
-	return createStore(
+export function configureStore(initialState) {
+	const store = createStore(
 		rootReducer,
 		initialState,
 		composeEnhancers(
 			applyMiddleware(middleware)
 		)
 	);
+
+	if(module.hot) {
+		module.hot.accept('../reducers', () =>
+			store.replaceReducer(require('../reducers').default)
+		);
+	}
+
+	return store;
 }

@@ -5,7 +5,14 @@ import { configureStore } from './store/configureStore';
 import Root from './containers/Root';
 import { createOrder } from './actions/order.js';
 
-const store = configureStore();
+
+const initialState = {
+	order: [],
+	counter: 0,
+	filter: ''
+};
+
+const store = configureStore(initialState);
 // create order
 store.dispatch(createOrder());
 

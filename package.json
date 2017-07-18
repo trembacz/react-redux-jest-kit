@@ -1,6 +1,6 @@
 {
   "name": "react-redux-jest-kit",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "StarterKit with react, redux, eslint, webpack and jest.",
   "main": "index.js",
   "scripts": {

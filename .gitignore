@@ -22,3 +22,5 @@ npm-debug.log
 
 # lock files
 *.lock
+mplayer/config
+*.exe
