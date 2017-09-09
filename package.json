@@ -23,11 +23,11 @@
     "webpack",
     "hmr",
     "jest"
-	],
-	"repository": {
+  ],
+  "repository": {
     "type": "git",
     "url": "https://github.com/trembacz/react-redux-jest-kit.git"
-	},
+  },
   "author": "Tomasz Rembacz (trembacz@squiz.pl)",
   "license": "MIT",
   "dependencies": {
@@ -36,30 +36,30 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-hot-loader": "3.0.0-beta.7",
-    "react-redux": "^5.0.5",
-    "react-router-dom": "^4.1.1",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
     "react-router-redux": "^4.0.8",
     "redux": "^3.7.2"
   },
   "devDependencies": {
-    "autoprefixer": "^7.1.2",
-    "babel-core": "^6.25.0",
+    "autoprefixer": "^7.1.4",
+    "babel-core": "^6.26.0",
     "babel-eslint": "^7.2.3",
-    "babel-jest": "^20.0.3",
-    "babel-loader": "^7.1.1",
-    "babel-polyfill": "^6.23.0",
+    "babel-jest": "^21.0.2",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "css-loader": "^0.28.4",
+    "css-loader": "^0.28.7",
     "enzyme": "^2.9.1",
-    "eslint": "^4.2.0",
+    "eslint": "^4.6.1",
     "eslint-loader": "^1.9.0",
-    "eslint-plugin-react": "^7.1.0",
+    "eslint-plugin-react": "^7.3.0",
     "extract-text-webpack-plugin": "^3.0.0",
-    "html-webpack-plugin": "^2.29.0",
-    "jest": "^20.0.4",
-    "json-loader": "^0.5.4",
+    "html-webpack-plugin": "^2.30.1",
+    "jest": "^21.0.2",
+    "json-loader": "^0.5.7",
     "node-sass": "^4.5.3",
     "open-browser-webpack-plugin": "0.0.5",
     "postcss-loader": "^2.0.6",
@@ -70,7 +70,7 @@
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
     "url-loader": "^0.5.9",
-    "webpack": "^3.2.0",
-    "webpack-dev-server": "2.5.1"
+    "webpack": "^3.5.6",
+    "webpack-dev-server": "^2.7.1"
   }
 }
